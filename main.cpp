@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     QQmlApplicationEngine engine;
-    qmlRegisterType<MyPropertyMap>("Test", 1, 0, "QmlObj");
+    qmlRegisterType<MyPropertyMap>("Test", 1, 0, "QmlObject");
     qmlRegisterSingletonType(QUrl("qrc:/TestContext.qml"), "Test", 1, 0, "TestContext");
 //    qmlRegisterSingletonType(QUrl("file:///tmp/untitled/TestContext.qml"), "Test", 1, 0, "TestContext");
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
