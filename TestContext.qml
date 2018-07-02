@@ -1,13 +1,12 @@
 pragma Singleton
 import QtQml 2.10
 import QtQuick 2.10
-import Test 1.0
+//import Test 1.0
 
 QmlObj {
     id: pfctx
 
     //property QmlObj extras: QmlObj { }
-    readonly property string fooString : "foo"
 
     Component.onCompleted: {
 //        fontsPath = "qrc:/qmlplugins/QmlPresentationFramework/assets/fonts/"
@@ -18,6 +17,7 @@ QmlObj {
 
         console.log(" ========= CONTEXT COMPLETED ========== ")
         testString = "foobar"
+        fooString = "foo"
 //        advanceContentInSlide = 0
 //        colorQtGreen = "#41CD52"
 
