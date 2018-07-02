@@ -1,0 +1,2 @@
+QmlObj 1.0 qrc:/QmlObj.qml
+singleton MySingletonObject 1.0 qrc:/MySingletonObject.qml

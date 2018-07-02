@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>TestContext.qml</file>
+        <file>qmldir</file>
+        <file>MySingletonObject.qml</file>
+        <file>QmlObj.qml</file>
+    </qresource>
+</RCC>
